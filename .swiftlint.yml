@@ -1,0 +1,25 @@
+
+disabled_rules:
+  - trailing_whitespace
+
+
+
+opt_in_rules:
+  - legacy_random
+  - private_action
+  - private_outlet
+  - unneeded_parentheses_in_closure_argument
+
+
+
+
+excluded:
+  - CameraApp/AppDelegate.swift
+  - CameraApp/SceneDelegate.swift
+  - Pods/
+
+line_length:
+  warning: 1300
+  error: 1500
+
+
